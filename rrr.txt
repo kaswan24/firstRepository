@@ -1,1 +1,19 @@
-rrrr
+git init -- create git repo
+git status --list untracked files
+git add (filename) --- add to staging area
+git rm --cached (index.html) -- remove file from stage
+git add .(add everyfile)
+git commit -m "message"
+git log --to see commits
+git log --oneline --to see condensed commits
+git checkout (commit id)-- checking commits
+git revert (commit id) -- for undoing changes
+(shift+colon then :wq)
+git reset(commit id)
+
+
+
+
+git push (url) master
+git clone (url)-- to clone from git to local
+git remote -v   then git push origin master
